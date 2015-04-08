@@ -1,0 +1,25 @@
+{
+  "name": "serialize-stl-binary",
+  "version": "1.0.0",
+  "description": "STL binary serialization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thibauts/serialize-stl-binary.git"
+  },
+  "keywords": [
+    "stl",
+    "binary",
+    "format",
+    "buffer",
+    "mesh"
+  ],
+  "author": "thibauts",
+  "license": "MIT",
+  "dependencies": {
+    "normals": "^1.0.1"
+  }
+}
