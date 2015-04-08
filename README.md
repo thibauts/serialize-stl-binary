@@ -2,7 +2,7 @@ serialize-stl-binary
 ====================
 ### STL binary serialization
 
-Produces a [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29) (STereoLithography) binary buffer from a mesh.
+Produces a [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29) (STereoLithography) binary buffer from a mesh. Face normals are computed internally if not provided.
 
 Install
 -------
