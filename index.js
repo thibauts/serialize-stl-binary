@@ -19,11 +19,11 @@ function serialize(cells, positions, faceNormals) {
   buf.writeUInt32LE(cells.length, off); // triangle count
   off += 4;
 
-  for(var i=0; i < cells.length; i++) {
+  for(var i=0; i<cells.length; i++) {
     writeVector(faceNormals[i], buf, off);
     off += 12; // 3 floats
 
-    for(var j=0; j < 3; j++) {
+    for(var j=0; j<3; j++) {
       writeVector(positions[cells[i][j]], buf, off);
       off += 12;
     }
